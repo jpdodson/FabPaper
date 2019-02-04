@@ -1,0 +1,75 @@
+\documentclass[reprint,aps,pra,superscriptaddress,notitlepage]{revtex4-1}
+\bibliographystyle{natureQIstyle.bst}
+\usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage[english]{babel}
+\usepackage[caption=false]{subfig}
+
+
+\newcommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\newcommand{\units}[1]{\ensuremath{\mathrm{#1}}}
+\newcommand{\cdunits}{\ensuremath{\units{cm}^{-2}}}
+\newcommand{\mounits}{\ensuremath{\units{cm}^{2}\units{V}^{-1}\units{s}^{-1}}}
+\newcommand{\amount}[2]{\ensuremath{#1\:\units{#2}}}
+\newcommand{\sym}[2]{\ensuremath{#1_{\mathrm{#2}}}}
+\newcommand{\bra}[1]{\ensuremath{\langle#1|}}
+\newcommand{\ket}[1]{\ensuremath{|{#1}\rangle}}
+\newcommand{\braket}[2]{ \langle #1 | #2 \rangle }
+\newcommand{\snc}[1]{\textcolor{red}{#1}}
+\newcommand{\bt}[1]{\textcolor{green}{#1}}
+\newcommand{\mf}[1]{\textcolor{magenta}{#1}}
+\newcommand{\mae}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+
+\newcommand{\gmb}{\ensuremath{g\sym{\mu}{B}}}
+
+\begin{document}
+
+\def\simlt{\mathrel{\lower .3ex \rlap{$\sim$}\raise .5ex \hbox{$<$}}}
+
+\title{\textbf{\fontfamily{phv}\selectfont 
+High yield fabrication of reproducible quantum dots in Si/SiGe heterostructures}}
+\author{J.P. Dodson}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+\author{Nathan Holman}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+\author{E. R. MacQuarrie}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+\author{Brandur Thorgrimsson}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+\author{Samuel F. Neyens}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+\author{Ryan H. Foote}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+\author{Thomas McJunkin}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+\author{L. F. Edge}
+\affiliation{HRL Laboratories, LLC, 3011 Malibu Canyon Road, Malibu, CA 90265, USA}
+\author{Mark Friesen}
+\author{S. N. Coppersmith}
+\author{M. A. Eriksson}
+\affiliation{Department of Physics, University of Wisconsin-Madison, Madison, WI 53706, USA}
+
+\begin{abstract}
+We describe techniques used to improve the fabrication yield of overlapping aluminum gate quantum dot devices in Si/SiGe. The thin 3nm native aluminum-oxide and the low thermal budget of aluminum devices due to dewetting presents a challenge for fabricating large quantum dot arrays with high yield. Gate-to-gate leakage due to pinholing in the native oxide, damage from electrostatic discharge, and low breakthrough voltages are all important failure modes that must be addressed when scaling up to large quantum dot systems. Here we present low temperature oxidation techniques of aluminum for a robust electrically isolating oxide with breakthrough voltages of over 4 volts of pertinent device length scales. Additionally, we discuss considerations for device structures far from the active regions to reduce contamination and increase overall performance and yield of overlapping aluminum gate quantum dot devices. 
+\end{abstract}
+
+\maketitle
+
+Developing a suitable physical system for quantum computational schemes has received much attention in the past two decades. Since Loss and Divencenzo's proposal \cite{Loss:1998p120}, significant progress has been made using spins in solid-state systems for quantum computation. Coherent control of semiconducter quantum dots using spin degrees of freedom was first demonstrated in GaAs/Al$_{0.3}$Ga$_{0.7}$As heterostructures \cite{Petta:2005p2180, Koppens:2006p766}. This particular heterostructure has been successful due to the small effective mass of electrons, allowing for large gate electrode architectures to tune devices into the few electron regime \cite{Ciorga:2000p16315}. Although fabrication and characterization of one-qubit devices in GaAs has become routine, \cite{Petta:2005p2180, Koppens:2006p766, Petta:2004p1586, PioroLadriere:2008p776, Laird:2010p1985} short dephasing and coherence times of spin-qubits due to the Overhauser field \cite{Coish:2004p5340} make it difficult to achieve fidelities necessary for fault-tolerant operation \cite{Fowler:2012p032324}.
+
+
+\begin{acknowledgments}
+This work was supported in part by ARO (W911NF-12-0607) and NSF (DMR-1206915, PHY-1104660). Development and maintenance of the growth facilities used for fabricating samples is supported by DOE (DE-FG02-03ER46028). This research utilized NSF-supported shared facilities at the University of Wisconsin-Madison.
+\end{acknowledgments}
+
+
+\bibliography{new,main}
+
+\emph{Additional Information:}
+Supplementary information accompanies this paper. Correspondence and requests for materials should be addressed to Mark A. Eriksson (maeriksson\emph{@}wisc.edu).
+
+\end{document}

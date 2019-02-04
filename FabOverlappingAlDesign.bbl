@@ -1,0 +1,84 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Loss:1998p120}
+\bibinfo{author}{Loss, D.} \& \bibinfo{author}{DiVincenzo, D.~P.}
+\newblock \bibinfo{title}{Quantum computation with quantum dots}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. A}} \textbf{\bibinfo{volume}{57}},
+  \bibinfo{pages}{120--126} (\bibinfo{year}{1998}).
+
+\bibitem{Petta:2005p2180}
+\bibinfo{author}{Petta, J.~R.}, \bibinfo{author}{Johnson, A.~C.},
+  \bibinfo{author}{Taylor, J.~M.}, \bibinfo{author}{Laird, E.~A.},
+  \bibinfo{author}{Yacoby, A.}, \bibinfo{author}{Lukin, M.~D.} \emph{et~al.}
+\newblock \bibinfo{title}{Coherent manipulation of coupled electron spins in
+  semiconductor quantum dots}.
+\newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{309}},
+  \bibinfo{pages}{2180--2184} (\bibinfo{year}{2005}).
+
+\bibitem{Koppens:2006p766}
+\bibinfo{author}{Koppens, F. H.~L.}, \bibinfo{author}{Buizert, C.},
+  \bibinfo{author}{Tielrooij, K.~J.}, \bibinfo{author}{Vink, I.~T.},
+  \bibinfo{author}{Nowack, K.~C.}, \bibinfo{author}{Meunier, T.} \emph{et~al.}
+\newblock \bibinfo{title}{Driven coherent oscillations of a single electron
+  spin in a quantum dot}.
+\newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{442}},
+  \bibinfo{pages}{766--771} (\bibinfo{year}{2006}).
+
+\bibitem{Ciorga:2000p16315}
+\bibinfo{author}{Ciorga, M.}, \bibinfo{author}{Sachrajda, A.~S.},
+  \bibinfo{author}{Hawrylak, P.}, \bibinfo{author}{Gould, C.},
+  \bibinfo{author}{Zawadzki, P.}, \bibinfo{author}{Jullian, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Addition spectrum of a lateral dot from {C}oulomb and
+  spin-blockade spectroscopy}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{61}},
+  \bibinfo{pages}{R16315--R16318} (\bibinfo{year}{2000}).
+
+\bibitem{Petta:2004p1586}
+\bibinfo{author}{Petta, J.~R.}, \bibinfo{author}{Johnson, A.~C.},
+  \bibinfo{author}{Marcus, C.~M.}, \bibinfo{author}{Hanson, M.~P.} \&
+  \bibinfo{author}{Gossard, A.~C.}
+\newblock \bibinfo{title}{Manipulation of a single charge in a double quantum
+  dot}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
+  \textbf{\bibinfo{volume}{93}}, \bibinfo{pages}{186802}
+  (\bibinfo{year}{2004}).
+
+\bibitem{PioroLadriere:2008p776}
+\bibinfo{author}{Pioro-Ladri\`{e}re, M.}, \bibinfo{author}{Obata, T.},
+  \bibinfo{author}{Tokura, Y.}, \bibinfo{author}{Shin, Y.-S.},
+  \bibinfo{author}{Kubo, T.}, \bibinfo{author}{Yoshida, K.} \emph{et~al.}
+\newblock \bibinfo{title}{Electrically driven single-electron spin resonance in
+  a slanting {Z}eeman field}.
+\newblock \emph{\bibinfo{journal}{Nat. Phys.}} \textbf{\bibinfo{volume}{4}},
+  \bibinfo{pages}{776--779} (\bibinfo{year}{2008}).
+
+\bibitem{Laird:2010p1985}
+\bibinfo{author}{Laird, E.~A.}, \bibinfo{author}{Taylor, J.~M.},
+  \bibinfo{author}{DiVincenzo, D.~P.}, \bibinfo{author}{Marcus, C.~M.},
+  \bibinfo{author}{Hanson, M.~P.} \& \bibinfo{author}{Gossard, A.~C.}
+\newblock \bibinfo{title}{Coherent spin manipulation in an exchange-only
+  qubit}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{82}},
+  \bibinfo{pages}{075403} (\bibinfo{year}{2010}).
+
+\bibitem{Coish:2004p5340}
+\bibinfo{author}{Coish, W.~A.} \& \bibinfo{author}{Loss, D.}
+\newblock \bibinfo{title}{Hyperfine interaction in a quantum dot: Non-markovian
+  electron spin dynamics}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. B}} \textbf{\bibinfo{volume}{70}},
+  \bibinfo{pages}{195340} (\bibinfo{year}{2004}).
+
+\bibitem{Fowler:2012p032324}
+\bibinfo{author}{Fowler, A.~G.}, \bibinfo{author}{Mariantoni, M.},
+  \bibinfo{author}{Martinis, J.~M.} \& \bibinfo{author}{Cleland, A.~N.}
+\newblock \bibinfo{title}{Surface codes: Towards practical large-scale quantum
+  computation}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. A}} \textbf{\bibinfo{volume}{86}},
+  \bibinfo{pages}{032324} (\bibinfo{year}{2012}).
+
+\end{thebibliography}

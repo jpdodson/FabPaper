@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: FabOverlappingAlDesign.aux
+The style file: natureQIstyle.bst.bst
+Database file #1: FabOverlappingAlDesignNotes.bib
+Database file #2: new.bib
+Database file #3: main.bib
+You've used 9 entries,
+            2344 wiz_defined-function locations,
+            1051 strings with 10757 characters,
+and the built_in function-call counts, 4543 in all, are:
+= -- 293
+> -- 188
+< -- 0
++ -- 94
+- -- 47
+* -- 625
+:= -- 499
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 368
+empty$ -- 353
+format.name$ -- 56
+if$ -- 872
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 101
+newline$ -- 53
+num.names$ -- 9
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 217
+swap$ -- 431
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 22
+width$ -- 10
+write$ -- 106
